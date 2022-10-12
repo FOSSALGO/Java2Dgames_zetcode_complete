@@ -16,9 +16,9 @@ public class Breakout extends JFrame {
         setTitle("Breakout");
 
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
         setResizable(false);
         pack();
+        setLocationRelativeTo(null);
     }
 
     public static void main(String[] args) {
